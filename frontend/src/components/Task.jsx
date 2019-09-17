@@ -15,9 +15,6 @@ class Task extends React.Component {
                         <div className="card-text">
                             {this.props.description}
                         </div>
-                        <div className="card-text">
-                            {this.props.state}
-                        </div>
                 </div>
                 <div className="card-footer d-flex justify-content-end">
                         <button 

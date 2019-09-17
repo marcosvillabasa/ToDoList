@@ -20,10 +20,6 @@ let taskSchema = new Schema({
         type: String,
         default: 'TO DO',
         enum: enumTask
-    },
-    deleted: {
-        type: Boolean,
-        default: false
     }
 });
 
